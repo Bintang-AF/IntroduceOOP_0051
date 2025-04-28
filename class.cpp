@@ -7,4 +7,6 @@ public:
     string Nama_Mobil;
     string Tipe_mobil;
 
+    private:
+    int harga_mobil;
 };
