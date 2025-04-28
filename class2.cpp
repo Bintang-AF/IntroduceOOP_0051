@@ -16,4 +16,11 @@ class persegi_panjang{
 
     }
 
+    void hitung_luas(){
+        luas =  panjang*lebar;
+    }
+    void output_data(){
+        cout << "tampilkan luas = "<< luas << endl;
+    }
 };
+
