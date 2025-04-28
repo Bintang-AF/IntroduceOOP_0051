@@ -19,5 +19,11 @@ public:
         cin >> harga_mobil;
 
     }
+    void output_data(){
+        cout << "harga mobil = "<< harga_mobil << endl;
 
+    }
 };
+
+
+
