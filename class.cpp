@@ -25,5 +25,13 @@ public:
     }
 };
 
-
+int main()
+{
+    Mobil btg;
+    btg.input_data();
+    cout << "nama mobil = "<< btg.Nama_Mobil << endl;
+    cout << "tipe mobil = "<< btg.Tipe_mobil << endl;
+    btg.output_data();
+    
+}
 
